@@ -14,8 +14,8 @@ fun main() {
 }
 
 fun sumElfCalories(input: String) =
-    input.split("\r\n\r\n")
-        .map { elf -> elf.split("\r\n")
+    input.split("\n\n")
+        .map { elf -> elf.split("\n")
             .sumOf { it.toInt() }
         }
 
