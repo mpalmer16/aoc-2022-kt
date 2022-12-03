@@ -11,7 +11,7 @@ fun main() {
 
     println("answer 1: $scoreRps")
 
-    val inputWld = getValuesWld(File("src/main/kotlin/day2/ingit put.txt").readLines())
+    val inputWld = getValuesWld(File("src/main/kotlin/day2/input.txt").readLines())
     val scoreWld = score(inputWld.convert())
 
     println("answer 2: $scoreWld")
