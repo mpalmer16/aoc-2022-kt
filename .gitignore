@@ -8,3 +8,5 @@ build/
 out/
 
 src/main/kotlin/*/input.txt
+src/main/kotlin/practice/
+src/test/kotlin/practice/
